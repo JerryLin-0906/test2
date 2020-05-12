@@ -167,3 +167,23 @@
     padding: 10px;
     color: black;
 }
+.footericon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footericon:hover{
+    background-color: #999999;
+    opacity: 0.5;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
