@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .navbrand{
     font-family: Permanent Marker,cursive;
     margin-right:100px;
@@ -149,6 +152,19 @@
     background-position: center;
     border-style: solid;
     border-color: #ffc002;
+    cursor: grab;
+    /*background:grey;
+    margin: auto;*/
+    border-radius: 25px;
+}
+.firstbutton:active{
+    background-color: #ffc002;
+    height: 50px;
+    width: calc(700px/4);
+    background-position: center;
+    border-style: solid;
+    border-color: #ffc002;
+    cursor: grabbing;
     /*background:grey;
     margin: auto;*/
     border-radius: 25px;
