@@ -14,7 +14,7 @@
     <!--navbar-->
 
     <div class="container-fluid"style="height: 55px">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"id="navbar-toggle-icon">
           <a class="navbar-brand navbrand" href="index.html">Jui-Jiun Lin</a>
           <!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,15 +58,16 @@
             </div>
 
         </div>
-        <div class="block100">
-            <div style="margin-top: 44px"></div>
-            <a name="Introduction"></a>
+        <div-- class="block100">
+            <!--div style="margin-top: 44px"></div-->
+
         </div>
 
     </div>
 
     <!--first slide (Introduction)-->
 
+    <a name="Introduction"></a>
     <div class="container-fluid"style="background-color: #e6e6e6;display: block;height: 500px">
         <div style="height: 100px;padding-top: 20px" align="center">
             <div class="maintitle"style="color: #343a40">Introduction</div>
@@ -75,12 +76,13 @@
             </div>
         </div>
 
-        <div style="height: 344px"align="bottom"></div>
-        <a name="About me"></a>
+        <!--div style="height: 344px"align="bottom"></div-->
+
     </div>
 
     <!--second slide (About me)-->
 
+    <a name="About me"></a>
     <div class="container-fluid"style="background-color: #f1f1f1;display: block;height: 1000px">
         <div style="height: 100px;padding-top: 20px" align="center">
             <div class="maintitle"style="color: #343a40">About Me</div>
@@ -139,12 +141,13 @@
                 </div>
             </div>
         </div>
-        <div style="height: 105px"></div>
-        <a name="Activities"></a>
+        <!--div style="height: 105px"></div-->
+
     </div>
 
     <!--third slide-->
 
+    <a name="Activities"></a>
     <div class="container-fluid"style="background-color: #e6e6e6;display: block;height: 1000px">
         <div style="height: 100px;padding-top: 20px" align="center">
             <div class="maintitle"style="color: #343a40">Activities</div>
@@ -152,12 +155,13 @@
                 <div class="blackline"></div>
             </div>
         </div>
-        <div style="height: 844px"></div>
-        <a name="Contact me"></a>
+        <!--div style="height: 844px"></div-->
+
     </div>
 
     <!--forth slide (contact me)-->
 
+    <a name="Contact me"></a>
     <div class="container-fluid"style="background-color: #f1f1f1;display: block;height: 1000px">
         <div style="height: 100px;padding-top: 20px" align="center">
             <div class="maintitle"style="color: #343a40">Contact me !!!</div>
@@ -248,6 +252,18 @@
           document.location = loc + '#' + anchor;
           return false;
                 }
+    </script>
+    <script type="text/javascript">
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar-toggle-icon").style.top = "0";
+            } else {
+                document.getElementById("navbar-toggle-icon").style.top = "-56px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
     </script>
 
 </body>
