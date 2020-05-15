@@ -203,3 +203,34 @@ html{
     background-position: center;
     background-repeat: no-repeat;
 }
+.form-group{
+    padding: 10px;
+    display: block;
+    margin-bottom: 0px;
+}
+.form-control{
+    height: 52px ;
+    background: #fff ;
+    color: #000000 ;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.send{
+    border-radius: 20px;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+.send:hover{
+    border-radius: 20px;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    background-color: #007bff;
+    border-color: #007bff;
+    opacity: 0.5;
+    color: white;
+}
